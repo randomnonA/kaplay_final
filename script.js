@@ -101,7 +101,7 @@ nn.on('load', () =>  {
   });
   onKeyDown("d", () => {
     wizard.move(250,0);
-    wizard.flipX = true;
+    wizard.flipX = true; //https://kaplayjs.com/docs/guides/sprites/
   });
   onKeyDown("a", () => {
     wizard.move(-250,0);
